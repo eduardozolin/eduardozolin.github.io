@@ -7,7 +7,8 @@
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
+  color:black;
+  background-color: #e8e8e8;
 }
 
 @media (min-width: 992px) {
@@ -26,7 +27,7 @@ h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: black;
 }
 
 h1 {
@@ -71,16 +72,48 @@ p.lead {
   margin-right: 0;
 }
 
-.social-icons a:hover {
-  background-color: #BD5D38;
+.social-icons a:hover#twitter {
+  background-color: #1da1f2;
+}
+
+.social-icons a:hover#linkedin {
+  background-color: #2867B2;
+}
+
+.social-icons a:hover#github {
+  background-color: #24292e;
 }
 
 .dev-icons {
   font-size: 3rem;
 }
 
-.dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+.dev-icons .list-inline-item#html5 i:hover {
+  color: #E44D26;
+}
+
+.dev-icons .list-inline-item#css3 i:hover {
+  color: #2965f1;
+}
+
+.dev-icons .list-inline-item#js i:hover {
+  color: #FFFF00;
+}
+
+.dev-icons .list-inline-item#angular i:hover {
+  color: #dd1b16;
+}
+
+.dev-icons .list-inline-item#react i:hover {
+  color: #61DBFB;
+}
+
+.dev-icons .list-inline-item#node i:hover {
+  color: #3C873A;
+}
+
+.dev-icons .list-inline-item#wordpress i:hover {
+  color: #0073AA;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -112,7 +145,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid #495057;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -160,11 +193,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #042745 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #042745 !important;
 }
 
 a {
